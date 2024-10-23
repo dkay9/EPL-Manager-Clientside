@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url('/images/epl.jpg');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h1{
     text-align: center;
 }
@@ -29,7 +35,6 @@ button{
     display: flex;
     width: 70%;
     height: 600px;
-    background: red;
     margin: 0 auto;
     margin-top: 20px;
     justify-content: space-between;
@@ -37,11 +42,9 @@ button{
 .man-details{
     padding: 40px;
     margin-left: 100px;
-    /* line-height: 25px; */
 }
 .text-content .img-section{
     width: 50%;
-    background: yellow;
     height: 600px;
 }
 img{

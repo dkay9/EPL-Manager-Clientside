@@ -7,10 +7,10 @@ async function apiRequest(){
         const data = await response.json()
 
         console.log(data)
-        document.querySelector('h2').innerText = data.birthName 
-        document.querySelector('span').innerText = data.age 
-        document.querySelector('p').innerText = data.placeOfBirth
-        document.querySelector('h3').innerText = data.plTitles
+        document.querySelector('.name').innerText = data.birthName 
+        document.querySelector('.age').innerText = data.age 
+        document.querySelector('.placeOfBirth').innerText = data.placeOfBirth
+        document.querySelector('.title').innerText = data.plTitles
         document.querySelector('img').src = data.imgUrl
 
     }catch(error){
