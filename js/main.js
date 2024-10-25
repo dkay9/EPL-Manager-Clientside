@@ -18,6 +18,10 @@ async function apiRequest(){
         document.querySelector('.info2').classList.remove('noShow')
         document.querySelector('.info3').classList.remove('noShow')
 
+        document.querySelector('img').classList.remove('noShow')
+        document.querySelector('.text-content').classList.remove('noShow')
+        // document.querySelector('img').classList.remove('noShow')
+
     }catch(error){
         console.log(error)
     }
