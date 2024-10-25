@@ -13,6 +13,11 @@ async function apiRequest(){
         document.querySelector('.title').innerText = data.plTitles
         document.querySelector('img').src = data.imgUrl
 
+        document.querySelector('.info').classList.remove('noShow')
+        document.querySelector('.info1').classList.remove('noShow')
+        document.querySelector('.info2').classList.remove('noShow')
+        document.querySelector('.info3').classList.remove('noShow')
+
     }catch(error){
         console.log(error)
     }
