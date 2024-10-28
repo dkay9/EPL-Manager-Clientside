@@ -3,7 +3,7 @@ document.querySelector('button').addEventListener('click', apiRequest)
 async function apiRequest(){
     const managerName = document.querySelector('input').value
     try{
-        const response = await fetch(`http://localhost:3000/api/${managerName}`)
+        const response = await fetch(`https://epl-managers-api.onrender.com/api/${managerName}`)
         const data = await response.json()
 
         console.log(data)
